@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<style>
+
+    div[class^='el']{
+        display: inline-block;
+        text-align: center;
+    }
+    div[class^='el']::before{
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+    div[class^='el'] * {
+        vertical-align: middle;
+    }
+
+</style>
+<body>
+
+<div class="container">
+
+</div>
+
+
+
+<script src="dist/main.js"></script>
+<script src="plugin.js"></script>
+</body>
+</html>
